@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>VPS-Backup — Personal encrypted backups</title><style>body{font-family:system-ui,sans-serif;line-height:1.65;max-width:760px;margin:48px auto;padding:0 22px;color:#17212b;background:#fafbfc}h1,h2{line-height:1.25}a{color:#1257a5}nav{margin-bottom:32px}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:16px;font-size:.9rem}</style></head><body><nav><a href="./">Home</a> · <a href="privacy.html">Privacy policy</a></nav><main><h1>VPS-Backup</h1>
+<p>VPS-Backup is a private utility operated by the owner of the GitHub account <a href="https://github.com/barissirvanli">barissirvanli</a>. It is being configured to store encrypted backups from the owner's server in the owner's Google Drive account and restore them when needed. It is not a public backup service and does not accept registrations.</p>
+<h2>How it works</h2>
+<p>The planned setup uses Restic to encrypt backup contents before upload and rclone to transfer the encrypted repository to Google Drive. Google authorization enables the utility to create, read, list and maintain backup files within the access granted by the account owner. Google account passwords are not collected by this utility.</p>
+<p>Offsite backup scheduling and recovery testing are not yet complete. This informational site does not run the backup utility or request Google authorization.</p>
+<h2>Privacy and contact</h2>
+<p>Read the <a href="privacy.html">privacy policy</a> for information about Google data access, storage, retention and revocation.</p>
+<p>Questions can be submitted through <a href="https://github.com/barissirvanli/vps-backup-info/issues">this repository's issue tracker</a>. Issues are public: do not include backup contents, credentials, authorization tokens or private server information.</p>
+<h2 id="terms">Terms of use</h2>
+<p>This utility is for the owner's private use. This site provides information only, without a service availability or recovery guarantee. There is no public service, subscription or third-party account access offered here.</p></main><footer>VPS-Backup · Personal backup utility · Last updated: 25 October 2026</footer></body></html>
